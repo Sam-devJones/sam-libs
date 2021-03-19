@@ -1,0 +1,112 @@
+h3 {
+  font-size: 1.35rem;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  background-color: #0b85a2;
+}
+
+header h2 {
+  transform: rotate(-7deg);
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #333;
+}
+
+section {
+  width: 90%;
+  margin: 1rem auto;
+  border: 3px solid #000;
+  border-radius: 13px;
+  padding: 1.5rem;
+  box-shadow: 2px 2px 7px #000;
+}
+
+.mad h3 {
+  text-decoration: underline;
+  padding-left: 2rem;
+  color: #003333;
+}
+
+.mad .game-body {
+  width: 70%;
+  margin: 1rem auto;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: #333;
+}
+
+.mad .game-body span {
+  color: #006666;
+  font-size: 1.25rem;
+}
+
+.libs {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.libs h3 {
+  color: #085e72;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.libs h2 {
+  color: #0da6ba;
+  text-shadow: 1px 1px 3px #0dba86;
+  padding-left: 5rem;
+}
+
+form label {
+  font-size: 1.1rem;
+  color: #006666;
+  margin-left: 10rem;
+}
+
+form input {
+  font-size: 1.15rem;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 30vw;
+  size: 20vh;
+  border-color: #696969;
+}
+
+input:focus {
+  border: 2px solid #000;
+  box-shadow: 2px 2px 3px #333;
+}
+
+input.btn {
+  padding: 14px 16px;
+  background-color: #0b85a2;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+form .btn:hover {
+  background-color: #0d99b9;
+}
+
+footer {
+  margin-top: 1rem;
+  padding: 3rem;
+  background-color: #085e72;
+  color: white;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  form label {
+    margin: auto;
+  }
+}
