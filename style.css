@@ -75,23 +75,36 @@ form input {
   margin: 1rem auto;
   width: 30vw;
   size: 20vh;
-  border-color: #696969;
+  border-radius: 1rem;
+  outline: none;
 }
 
 input:focus {
   border: 2px solid #000;
-  box-shadow: 2px 2px 3px #333;
+  box-shadow: 2px 2px 5px #333;
+  border-radius: 1.1rem;
 }
 
-input.btn {
-  padding: 14px 16px;
-  background-color: #0b85a2;
-  color: white;
+form div {
+  width: inherit;
   text-align: center;
+}
+
+.btn {
+  width: 25vw;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  background-color: #fff;
+  color: #0b85a2;
+  text-align: center !important;
   margin: auto;
+  border-radius: 1.2rem;
+  outline: none;
 }
 form .btn:hover {
-  background-color: #0d99b9;
+  background-color: #0b85a2;
+  color: white;
+  transform: scale(0.9);
 }
 
 footer {
@@ -108,5 +121,9 @@ footer h3 {
 @media (max-width: 500px) {
   form label {
     margin: auto;
+  }
+
+  form input {
+    width: 40vw;
   }
 }
